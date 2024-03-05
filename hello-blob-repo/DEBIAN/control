@@ -1,0 +1,5 @@
+Package: hello-blob-repo
+Version: 0.1.0
+Architecture: all
+Maintainer: Adam Sasine <adam.sasine@gmail.com>
+Description: An example package that contains an executable.
