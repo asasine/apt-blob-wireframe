@@ -51,10 +51,19 @@ The repository is hosted in the `debian` container, which is automatically creat
 ```
 
 ## Usage
-The repository can be added to the `sources.list` file using the `deb` protocol and the URL of the repository. The URL is the public URL of the `debian` container in the storage account. See [add-apt-source.bash](add-apt-source.bash) for an example.
+The repository can be added to the `sources.list` file using the `deb` protocol and the URL of the repository. The URL is the public URL of the `debian` container in the storage account. The public key used to sign the repo is added to `/etc/apt/keyrings/`. See [add-apt-source.bash](add-apt-source.bash) for an example.
 
 ```bash
-./add-apt-source.bash
+sudo ./add-apt-source.bash
+```
+
+Once the repository is added, the `apt` package manager can be used to install packages from the repository.
+
+```bash
+sudo apt update
+sudo apt install hello-blob-repo
+echo $(which hello-blob-repo)
+hello-blob-repo
 ```
 
 ## References
