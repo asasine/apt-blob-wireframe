@@ -69,8 +69,8 @@ hello-blob-repo
 ## References
 - [Debian Repository](https://wiki.debian.org/DebianRepository)
 - [Debian Policy manual - Control files and their fields](https://www.debian.org/doc/debian-policy/ch-controlfields.html)
-- [dpkg-deb(1)](https://manpages.debian.org/stable/dpkg/dpkg-deb.1.en.html)
-- [gpg(1)](https://manpages.debian.org/stable/gpg/gpg.1.en.html)
-- [apt-ftparchive(1)](https://manpages.debian.org/stable/apt-utils/apt-ftparchive.1.en.html)
-- [sources.list(5)](https://manpages.debian.org/stable/apt/sources.list.5.en.html)
+- [dpkg-deb(1)](https://manpages.debian.org/dpkg-deb)
+- [gpg(1)](https://manpages.debian.org/gpg)
+- [apt-ftparchive(1)](https://manpages.debian.org/apt-ftparchive)
+- [sources.list(5)](https://manpages.debian.org/sources.list.5)
 - [`az storage`](https://learn.microsoft.com/cli/azure/storage)
