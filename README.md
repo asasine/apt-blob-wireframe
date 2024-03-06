@@ -1,11 +1,11 @@
 # APT + Blob Repository Wireframe
 This repository contains a wireframe for a Debian APT repository hosted on Azure Blob Storage. The repository is designed to be used with the `apt` package manager.
 
-Basic configuration for the repository can be done by copying [config.example.bash](config.example.bash) to `config.bash` and modifying the variables. The `config.bash` file is sourced by the other scripts in the repository. This file is not tracked by git by default.
+Basic configuration for the repository can be done by copying [env.example.bash](env.example.bash) to `env.bash` and modifying the variables. The `env.bash` file is sourced by the other scripts in the repository. This file is not tracked by git by default.
 
 ```bash
-cp config.example.bash config.bash
-vim config.bash # Modify the variables
+cp env.example.bash env.bash
+vim env.bash # Modify the variables
 ```
 
 ## Repository
